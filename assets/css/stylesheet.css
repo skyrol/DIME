@@ -245,3 +245,43 @@ p {
     max-width: 60rem;
   }
 }
+
+.navigation {
+  background-color: transparent;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  padding: 10px 50px;
+  margin: 0;
+  border: 0; }
+  .navigation .navbar-brand {
+    display: inline-block; }
+  .navigation .navbar-toggler {
+    background: #fff;
+    outline: none;
+    border-radius: 0;
+    float: right; }
+    .navigation .navbar-toggler i {
+      font-size: 22px; }
+
+.logo {
+  display: inline-block; }
+  .logo h1 {
+    color: #444;
+    font-size: 25px;
+    margin: 0;
+    line-height: 1; }
+
+.menu {
+  margin-top: 14px; }
+  .menu li {
+    display: inline-block;
+    margin: 0 10px; }
+    .menu li a {
+      color: #444;
+      font-size: 14px;
+      font-weight: bold; }
+      .menu li a:hover, .menu li a:focus {
+        background: none; }
