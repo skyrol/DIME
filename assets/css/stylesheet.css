@@ -71,8 +71,17 @@ a:active {
   font-family: 'norwesterregular';
 }
 
-.text-white {
-  color: #ffffff;
+.subtitle {
+  font-family: 'norwesterregular';
+  font-size: 1.5rem;
+}
+
+.text-green {
+   color: #31b2ba;
+}
+
+.text-red {
+  color: #e6443d;
 }
 
 .italic {
