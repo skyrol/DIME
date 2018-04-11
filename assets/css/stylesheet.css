@@ -33,12 +33,25 @@ body {
 }
 
 * {
-  /*font-family: 'Lato', Helvetica, sans-serif;*/
   font-family: 'aileronregular';
   font-weight: 400;
   color: #ffffff;
   line-height: 1.5;
 }
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+    display: block;
+}
+*, ::after, ::before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+a,
+a:active,
+a:focus,
+a:active {
+  text-decoration: none; }
 
 /* OTHER */
 
@@ -47,6 +60,9 @@ body {
   bottom: 0;
   width: 100%;
   height: 70px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 25px;
 }
 
 /* TYPOGRAPHY */
@@ -108,10 +124,12 @@ p {
 /* POSITIONING */
 
 .left {
+  float: left;
   text-align: left;
 }
 
 .right {
+  float: right;
   text-align: right;
 }
 
@@ -284,6 +302,15 @@ p {
   }
 }
 
+.navbar {
+    border-radius: .25rem;
+}
+
+.navbar {
+    position: relative;
+    padding: .5rem 1rem;
+}
+
 .navigation {
   background-color: transparent;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -296,30 +323,25 @@ p {
   border: 0; }
   .navigation .navbar-brand {
     display: inline-block; }
-  .navigation .navbar-toggler {
-    background: #fff;
-    outline: none;
-    border-radius: 0;
-    float: right; }
-    .navigation .navbar-toggler i {
-      font-size: 22px; }
 
 .logo {
   display: inline-block; }
   .logo h1 {
-    color: #444;
+    font-family: 'norwesterregular';
+    color: #fff;
     font-size: 25px;
-    margin: 0;
+    margin-top: 5px;
     line-height: 1; }
 
 .menu {
-  margin-top: 14px; }
+  margin-top: 15px; }
   .menu li {
     display: inline-block;
-    margin: 0 10px; }
+    margin: 0 15px; }
     .menu li a {
-      color: #444;
+      color: #fff;
       font-size: 14px;
       font-weight: bold; }
       .menu li a:hover, .menu li a:focus {
-        background: none; }
+        background: none;
+        color: #e6443d; }
