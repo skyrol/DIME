@@ -54,6 +54,12 @@
 	<meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
 
 	<meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript">
+    function printDone() {
+      location.reload();
+    }
+  </script>
 </head>
 <body>
 	<!-- Nav menu -->
@@ -133,7 +139,7 @@
 			</div>
 
 			<div class="text-center">
-				<button type="submit" class="btn">Submit</button>
+				<button class="btn" onclick="printDone()">Submit</button>
 			</div>
 		</form>
 
@@ -163,8 +169,8 @@
 	<!-- Footer end-->
 
 	<!-- Back To Top -->
-	<a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
-	<script type="text/javascript" src="assets/js/jquery.back-to-top.min.js"></script>
+	<!-- <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+	<script type="text/javascript" src="assets/js/jquery.back-to-top.min.js"></script> -->
 
 </body>
 </html>
